@@ -1,0 +1,30 @@
+chat-bot folder is the rasa server.
+
+rasa-webchat is the web integration folder. index.html -- use the div and script tag and add into the webpage.
+
+Setup Instructions
+-------------------
+
+$ python -V
+Python 3.7.3
+$ pip -V
+pip 19.1.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
+
+$ pip install rasa
+
+$ rasa init --no-prompt
+
+$ rasa shell
+
+
+For Setting up the environment and making the server up and running :
+
+rasa run --cors "*" --enable-api
+
+******************************************
+
+Take care of Numpy version.
+
+*******************************************
+
+setup with pip install requirements.txt if any doubt.
